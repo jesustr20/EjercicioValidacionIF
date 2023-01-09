@@ -1,4 +1,4 @@
-import logica_op
+import functionsOperators
 
 def operationSum():
     num1 = input("Ingresa el primer numero: ")
@@ -6,7 +6,7 @@ def operationSum():
     if num1.isdigit() and num2.isdigit():
         num1 = int(num1)
         num2 = int(num2)
-        logica_op.suma(num1,num2)
+        functionsOperators.suma(num1,num2)
     else:
         print("Por favor, Ingresa numeros. Vuelve a intentarlo")
         operationSum()
@@ -17,7 +17,7 @@ def operationSubstraction():
     if num1.isdigit() and num2.isdigit():
         num1 = int(num1)
         num2 = int(num2)
-        logica_op.resta(num1,num2)
+        functionsOperators.resta(num1,num2)
     else:
         print("Por favor, Ingresa numeros. Vuelve a intentarlo")
         operationSubstraction()
@@ -28,7 +28,7 @@ def operationMultiplication():
     if num1.isdigit() and num2.isdigit():
         num1 = int(num1)
         num2 = int(num2)
-        logica_op.multi(num1,num2)
+        functionsOperators.multi(num1,num2)
     else:
         print("Por favor, Ingresa numeros. Vuelve a intentarlo")
         operationMultiplication()
@@ -39,7 +39,7 @@ def operationDivision():
     if num1.isdigit() and num2.isdigit():
         num1 = int(num1)
         num2 = int(num2)
-        logica_op.division(num1,num2)
+        functionsOperators.division(num1,num2)
     else:
         print("Por favor, Ingresa numeros. Vuelve a intentarlo")
         operationDivision()
@@ -50,7 +50,7 @@ def operationPotencia():
     if num1.isdigit() and num2.isdigit():
         num1 = int(num1)
         num2 = int(num2)
-        logica_op.potencia(num1,num2)
+        functionsOperators.potencia(num1,num2)
     else:
         print("Por favor, Ingresa numeros. Vuelve a intentarlo")
         operationPotencia()
