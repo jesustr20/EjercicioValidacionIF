@@ -1,6 +1,6 @@
 import logica_op
 
-def valida_datoSum():
+def operationSum():
     num1 = input("Ingresa el primer numero: ")
     num2 = input("Ingresa el segundo numero: ")
     if num1.isdigit() and num2.isdigit():
@@ -9,9 +9,9 @@ def valida_datoSum():
         logica_op.suma(num1,num2)
     else:
         print("Por favor, Ingresa numeros. Vuelve a intentarlo")
-        valida_datoSum()
+        operationSum()
 
-def valida_datoResta():
+def operationSubstraction():
     num1 = input("Ingresa el primer numero: ")
     num2 = input("Ingresa el segundo numero: ")
     if num1.isdigit() and num2.isdigit():
@@ -20,9 +20,9 @@ def valida_datoResta():
         logica_op.resta(num1,num2)
     else:
         print("Por favor, Ingresa numeros. Vuelve a intentarlo")
-        valida_datoResta()
+        operationSubstraction()
 
-def valida_datoMul():
+def operationMultiplication():
     num1 = input("Ingresa el primer numero: ")
     num2 = input("Ingresa el segundo numero: ")
     if num1.isdigit() and num2.isdigit():
@@ -31,9 +31,9 @@ def valida_datoMul():
         logica_op.multi(num1,num2)
     else:
         print("Por favor, Ingresa numeros. Vuelve a intentarlo")
-        valida_datoMul()
+        operationMultiplication()
 
-def valida_datoDivi():
+def operationDivision():
     num1 = input("Ingresa el primer numero: ")
     num2 = input("Ingresa el segundo numero: ")
     if num1.isdigit() and num2.isdigit():
@@ -42,9 +42,9 @@ def valida_datoDivi():
         logica_op.division(num1,num2)
     else:
         print("Por favor, Ingresa numeros. Vuelve a intentarlo")
-        valida_datoDivi()
+        operationDivision()
     
-def valida_datoPoten():
+def operationPotencia():
     num1 = input("Ingresa el primer numero: ")
     num2 = input("Ingresa el segundo numero: ")
     if num1.isdigit() and num2.isdigit():
@@ -53,4 +53,4 @@ def valida_datoPoten():
         logica_op.potencia(num1,num2)
     else:
         print("Por favor, Ingresa numeros. Vuelve a intentarlo")
-        valida_datoPoten()
+        operationPotencia()
